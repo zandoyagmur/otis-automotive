@@ -10,7 +10,7 @@
     source: "Google",
   },
   {
-    body: "Good vibes, no-nonsense shop. The kind of place where you actually talk with the tech. THAT's the kind of mechanic you want to have. One you can actually talk to.",
+    body: "Good vibes, no&mdash;nonsense shop. The kind of place where you actually talk with the tech. THAT's the kind of mechanic you want to have. One you can actually talk to.",
     author: "Local resident",
     source: "Google",
   },
@@ -23,57 +23,57 @@
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="bg-otis-blue text-cream py-24 px-6 relative overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-3 diagonal-stripes" />
+    <section id="reviews" className="bg&mdash;otis&mdash;blue text&mdash;cream py&mdash;24 px&mdash;6 relative overflow&mdash;hidden">
+      <div className="absolute top&mdash;0 left&mdash;0 right&mdash;0 h&mdash;3 diagonal&mdash;stripes" />
 
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max&mdash;w&mdash;6xl mx&mdash;auto relative z&mdash;10">
         {/* Header */}
-        <div className="text-center mb-16">
-          <p className="font-mono text-xs uppercase tracking-widest font-bold text-otis-orange mb-4">Chapter Three</p>
-          <div className="flex items-center justify-center gap-2 mb-6">
+        <div className="text&mdash;center mb&mdash;16">
+          <p className="font&mdash;mono text&mdash;xs uppercase tracking&mdash;widest font&mdash;bold text&mdash;otis&mdash;orange mb&mdash;4">Chapter Three</p>
+          <div className="flex items&mdash;center justify&mdash;center gap&mdash;2 mb&mdash;6">
             {[1,2,3,4,5].map(i => (
-              <svg key={i} className="w-8 h-8 fill-otis-orange" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg key={i} className="w&mdash;8 h&mdash;8 fill&mdash;otis&mdash;orange" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l&mdash;5 4.87 1.18 6.88L12 17.77l&mdash;6.18 3.25L7 14.14 2 9.27l6.91&mdash;1.01L12 2z"/></svg>
             ))}
           </div>
-          <h2 className="font-display text-5xl md:text-7xl leading-[0.95] mb-4">
+          <h2 className="font&mdash;display text&mdash;5xl md:text&mdash;7xl leading&mdash;[0.95] mb&mdash;4">
             89 PEOPLE<br />
-            <span className="text-otis-orange italic">CAN&apos;T BE WRONG.</span>
+            <span className="text&mdash;otis&mdash;orange italic">CAN&apos;T BE WRONG.</span>
           </h2>
-          <p className="text-cream/70 font-mono text-sm uppercase tracking-widest">4.9 average &middot; Google + CARFAX + Nextdoor</p>
+          <p className="text&mdash;cream/70 font&mdash;mono text&mdash;sm uppercase tracking&mdash;widest">4.9 average &middot; Google + CARFAX + Nextdoor</p>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-cream/20 mb-16 border-2 border-cream/30">
+        <div className="grid grid&mdash;cols&mdash;2 md:grid&mdash;cols&mdash;4 gap&mdash;px bg&mdash;cream/20 mb&mdash;16 border&mdash;2 border&mdash;cream/30">
           {[
             { value: "4.9", label: "Stars" },
             { value: "89+", label: "Reviews" },
             { value: "35", label: "Years" },
             { value: "8x", label: "Award" },
           ].map((s) => (
-            <div key={s.label} className="bg-otis-blue p-8 text-center">
-              <p className="font-display text-5xl md:text-6xl text-otis-orange mb-2">{s.value}</p>
-              <p className="font-mono text-xs uppercase tracking-widest font-bold text-cream/80">{s.label}</p>
+            <div key={s.label} className="bg&mdash;otis&mdash;blue p&mdash;8 text&mdash;center">
+              <p className="font&mdash;display text&mdash;5xl md:text&mdash;6xl text&mdash;otis&mdash;orange mb&mdash;2">{s.value}</p>
+              <p className="font&mdash;mono text&mdash;xs uppercase tracking&mdash;widest font&mdash;bold text&mdash;cream/80">{s.label}</p>
             </div>
           ))}
         </div>
 
         {/* Reviews grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid&mdash;cols&mdash;1 md:grid&mdash;cols&mdash;2 gap&mdash;6">
           {reviews.map((review, i) => (
-            <div key={i} className="bg-cream text-ink p-8 border-4 border-ink relative">
-              <div className="absolute -top-3 -left-3 bg-otis-red text-cream w-12 h-12 flex items-center justify-center border-4 border-ink font-display text-xl">
+            <div key={i} className="bg&mdash;cream text&mdash;ink p&mdash;8 border&mdash;4 border&mdash;ink relative">
+              <div className="absolute &mdash;top&mdash;3 &mdash;left&mdash;3 bg&mdash;otis&mdash;red text&mdash;cream w&mdash;12 h&mdash;12 flex items&mdash;center justify&mdash;center border&mdash;4 border&mdash;ink font&mdash;display text&mdash;xl">
                 &ldquo;
               </div>
-              <div className="flex items-center justify-between mb-4 mt-2">
-                <div className="flex gap-1">
+              <div className="flex items&mdash;center justify&mdash;between mb&mdash;4 mt&mdash;2">
+                <div className="flex gap&mdash;1">
                   {[1,2,3,4,5].map(j => (
-                    <svg key={j} className="w-4 h-4 fill-otis-red" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <svg key={j} className="w&mdash;4 h&mdash;4 fill&mdash;otis&mdash;red" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l&mdash;5 4.87 1.18 6.88L12 17.77l&mdash;6.18 3.25L7 14.14 2 9.27l6.91&mdash;1.01L12 2z"/></svg>
                   ))}
                 </div>
-                <span className="font-mono text-xs uppercase tracking-widest font-bold text-ink-mute">{review.source}</span>
+                <span className="font&mdash;mono text&mdash;xs uppercase tracking&mdash;widest font&mdash;bold text&mdash;ink&mdash;mute">{review.source}</span>
               </div>
-              <p className="text-ink leading-relaxed mb-4 font-medium">{review.body}</p>
-              <p className="font-mono text-xs uppercase tracking-widest font-bold text-otis-red">â€” {review.author}</p>
+              <p className="text&mdash;ink leading&mdash;relaxed mb&mdash;4 font&mdash;medium">{review.body}</p>
+              <p className="font&mdash;mono text&mdash;xs uppercase tracking&mdash;widest font&mdash;bold text&mdash;otis&mdash;red">â€” {review.author}</p>
             </div>
           ))}
         </div>
