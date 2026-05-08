@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Otis Automotive
 
-## Getting Started
+A modern dealership website built for a real Fair Oaks, CA automotive business. Designed with a Vintage Americana aesthetic to reflect the brand's local roots and decades of service.
 
-First, run the development server:
+**Live site:** [otis-automotive.vercel.app](https://otis-automotive.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Vercel (deployment)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Responsive design optimized for mobile and desktop
+- Vintage Americana aesthetic with custom typography (Bebas Neue, Bowlby One)
+- Service listings, contact section, and business info
+- Fast load times via Next.js static generation
 
-## Learn More
+## About
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Spec project built for Bruce & Laura's automotive shop in Fair Oaks, CA. Designed and developed by [Yagmur Zando](https://yagmurzando.com).
